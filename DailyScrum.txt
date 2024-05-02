@@ -4,4 +4,15 @@ Brainstorming,project planning
 Looking for products that will be used during my project creation.
 26/04/2024
 Watching tutorials ,Summarizing the final structure of my application, what functionality I am expecting  to see at the end. Continuously,
+27/04/2024
+Working on architecture of the  web app 
+29/04/2024
+Starting to code
+30/04/2024
+MongoDB setup
+01/05/2024
+Connection with MongoDB, installing node modules,jason packages 
+02/05/2024
+Working on main page and sign in, sign up
+
 
