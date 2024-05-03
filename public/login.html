@@ -22,4 +22,20 @@
         </form>
     </div>
 </body>
+<script>
+    window.onload = function() {
+      const params = new URLSearchParams(window.location.search);
+      const message = params.get('message');
+      const error = params.get('error');
+      if (message) {
+        document.getElementById('message').innerText = message;
+      }
+      if (error) {
+        document.getElementById('error').innerText = error;
+      }
+    }
+    </script>
+    <div id="message" style="color: green;"></div>
+    <div id="error" style="color: red;"></div>
+    
 </html>

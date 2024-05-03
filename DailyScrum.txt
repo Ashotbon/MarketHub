@@ -14,5 +14,7 @@ MongoDB setup
 Connection with MongoDB, installing node modules,jason packages 
 02/05/2024
 Working on main page and sign in, sign up
+03/05/2024
+Working on first call ,Sign up ,creating user in db .
 
 

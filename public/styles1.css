@@ -6,10 +6,14 @@ body, h1, ul, p, a {
 
 header {
     background: #f8f9fa;
+    align-items: center;
+}
+
+.logowrapper{    
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    padding: 30px;
+
 }
 
 .navbar {
@@ -23,50 +27,116 @@ header {
     vertical-align: middle;
 }
 
+nav {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 20px 0 20px 0;
+}
+
 nav ul {
     list-style: none;
     display: flex;
 }
 
 nav ul li {
-    padding: 10px;
+    padding: 0 30px;
+    margin: 0 20px;
+    color: black;
+}
+nav ul li >a {
+
+    color: black;
 }
 
-.auth-buttons button {
-    margin-left: 10px;
-}
 
 .hero {
-    background-image: url('hero-image.jpg');
+    background-image: url('./logo/cloths.jpg');
     background-size: cover;
     height: 250px;
     color: white;
     text-align: center;
     padding-top: 150px;
-    background-image: url(hero-image.jpg);
     background-size: contain;
     text-align: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: 50%;
 }
 
 .search-box {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    align-items: center;
+    width: 800px;
+    height: 56px;
+    overflow: hidden;
+    opacity: 1;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+    input[type="text"] {
+    padding: 0px 50px;
+    color: rgb(115, 115, 115);
+    font-family: "Red Hat Display";
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: none; 
+    border:none;
+    width: 300px;
+    }
+    /* Handle hover state */
+    input[type="text"]:hover {
+    border: none;
+    outline: none;
 }
 
-input[type="text"] {
-    padding: 10px;
-    width: 300px;
+/* Handle focus state */
+    input[type="text"]:focus {
+    border: none;
+    outline: none;
+}
+
+
+.search-box >button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    cursor: inherit;
+    overflow: hidden;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 202, 210);
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px;
+    border: 0px;
+    margin-right: 7px;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 button {
-    padding: 10px;
-    background-color: blue;
-    color: white;
-    border: none;
-    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    cursor: inherit;
+    overflow: hidden;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(71, 202, 210);
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px;
+    border: 0px;
 }
 
 footer {
@@ -143,6 +213,15 @@ footer {
         border-radius: 100px;
         box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 0px;
         border: 1px solid rgb(33, 33, 33);
-    }
+        color: black;
+    };
+
+    
+
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+
    
 }
